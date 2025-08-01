@@ -5,7 +5,7 @@ services:
     build: .
     container_name: ypes-mirror-app
     ports:
-      - "80:1"
+      - "81:1"
     environment:
       - PORT=1
     restart: unless-stopped
