@@ -13,7 +13,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Зеркальное отображение текста - ypes</title>
+    <title>Зеркальное отображение текста</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -134,8 +134,7 @@ HTML_TEMPLATE = """
         </div>
 
         <div class="footer">
-            <p>🐳 Docker приложение ypes | Внешний порт: 8080 → Внутренний порт: 1</p>
-            <p><a href="https://github.com/Nelyfa/ypes" style="color: #FFD700;">GitHub: Nelyfa/ypes</a></p>
+            <p>2025</p>
         </div>
     </div>
 
