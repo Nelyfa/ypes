@@ -134,7 +134,7 @@ HTML_TEMPLATE = """
         </div>
 
         <div class="footer">
-            <p>🐳 Docker приложение ypes | Порт: 1</p>
+            <p>🐳 Docker приложение ypes | Внешний порт: 8080 → Внутренний порт: 1</p>
             <p><a href="https://github.com/Nelyfa/ypes" style="color: #FFD700;">GitHub: Nelyfa/ypes</a></p>
         </div>
     </div>
