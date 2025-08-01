@@ -57,14 +57,14 @@ docker-compose up -d
 
 ### Веб-интерфейс
 
-Откройте в браузере: http://localhost:8080
+Откройте в браузере: http://localhost:81
 
 ### REST API
 
 #### POST запрос
 
 ```bash
-curl -X POST http://localhost:8080/api/mirror \
+curl -X POST http://localhost:81/api/mirror \
   -H "Content-Type: application/json" \
   -d '{"text": "привет мир"}'
 ```
@@ -82,13 +82,13 @@ curl -X POST http://localhost:8080/api/mirror \
 #### GET запрос
 
 ```bash
-curl "http://localhost:8080/api/mirror?text=привет+мир"
+curl "http://localhost:81/api/mirror?text=привет+мир"
 ```
 
 ### Health Check
 
 ```bash
-curl http://localhost:8080/health
+curl http://localhost:81/health
 ```
 
 ## 📁 Структура проекта
